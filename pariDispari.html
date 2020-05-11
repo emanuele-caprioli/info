@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Numero Pari o Dispari?</title>
+<link rel="stylesheet" type="text/css" href="CSS/pariDispari.css">
+<h1 class="title">Verifica se un numero è Pari o Dispari</h1>
+<script>
+function pariDispari()
+{
+	var msg="";
+	var resto=0;
+	num = document.getElementById("num").value;
+	resto = num%2;
+	if(isNaN(num))
+		msg="Inserire un numero";
+	else{
+		if (resto==0)
+			msg = "Il numero è PARI";
+		else
+			msg = "Il numero è DISPARI";
+	}
+	document.getElementById("risultato").innerHTML = msg;
+}
+</script>
+</head>
+<body>
+<center>
+Inserisci un numero intero: <input type="text" id="num">
+<p>
+<button class="button2" type="button" onclick="pariDispari()">Controlla</BUTTON>
+<div id="risultato"></div>
+<p>
+<button class="button";type="button"; onclick="document.getElementById('demo').innerHTML = 'Emanuele Caprioli'">
+Creato da:</button>
+</center>
+<p>
+<center>
+    <a class="a"; href="index.html">Clicca per tornare all'Home page</a>
+</center>
+<h2 id="demo"; style="text-align: right;"></h2>
+</body>
+</html>

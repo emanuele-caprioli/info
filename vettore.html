@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Vettore</title>
+	<link rel="stylesheet" type="text/css" href="CSS/vettore.css">
+    </head>
+    <h1 class="title">Crea un Vettore</h1>
+    <center>
+            <label>Inserire dimensione:</label>
+            <input type="text" id="num">
+    </center>
+    <br></br>
+    <center>
+            <button id="button1" class = "button2" type="button">Crea il vettore</BUTTO>
+	    <il>
+	    <button class="button2" type="button" onclick="stampa()">Stampa il vettore</BUTTON>
+            <button id="button2" class = "button2" type="button">Ordina il vettore</BUTTON>
+    </center>
+    <br></br>
+	
+    <h2 id="demo" style="text-align: center;"></h2>
+    
+    <center>
+     <button class="button";type="button"; onclick="document.getElementById('nome').innerHTML = 'Emanuele Caprioli'">
+     Creato da:</button>
+    </center> 
+    <br></br>
+    <center>
+	     <a class="a"; href="index.html">Clicca per tornare all'Home page</a> 
+    </center>
+    <h2 id="nome" style="text-align: right;"></h2>
+    </body>
+</html>
+<script>
+var vett = [];
+function crea()
+{  
+    vett = [];
+    var dim=parseInt(document.getElementById("num").value);
+    var i=0;
+    for(i=0;i<dim;i++)
+        vett[i]=Math.floor(Math.random()*50)+1;
+}
+document.getElementById("button1").addEventListener("click",crea);
+function ordinaStampa()
+{
+    vett.sort();
+    vett.sort(function(a, b){return a-b});
+    document.getElementById("demo").innerHTML = vett;
+}
+document.getElementById("button2").addEventListener("click",ordinaStampa);
+function stampa()
+{
+	document.getElementById("demo").innerHTML = vett;
+}
+</script>

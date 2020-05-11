@@ -1,0 +1,37 @@
+h1.titolo{
+	background-color: #0066CC;
+	color: white;
+	font-size: 120%;
+}
+p.lista{
+	background-color: #0099CC;
+}
+table{
+		width:25%;
+		border: 0;
+		font-family: verdana;
+		text-align: center;
+		background-color: #F0F0F0;	
+}
+td.prima{
+		background-color: #0066CC;
+		text-align: center;
+		color: white;
+		font-size: 120%;
+}
+th.seconda{
+		background-color: #0099CC;
+}
+td.terza{
+		background-color:lightgrey;
+}
+h2.cognome{
+		text-align: right;
+}
+.button{
+	border-style: solid;
+ 	border-color: #0099CC;
+	background-color: #ccffff;
+	padding: 14px 25px;
+	border-radius: 12px;
+}

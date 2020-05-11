@@ -1,0 +1,50 @@
+body{
+	font-family: arial;
+	background-color: #0080FF;
+	color: white;
+}
+h1.titolo{
+	background-color: #9900CC;
+	color: yellow;
+	font-size: 120%;
+}
+h2.lista{
+	background-color: #6600CC;
+	color: white;
+}
+li.prima{
+	font-size: 140%;
+}
+li.seconda{
+	font-size: 140%;
+}
+table{
+	width: 25%;
+	border: 0;
+	font-family: verdana;
+	background-color: yellow;
+	text-align: center;
+}
+td.prima{
+	background-color: #9900CC;
+	color: yellow;
+}
+td.terza{
+	background-color:#6600CC;
+	color:white;
+}
+h2.cognome{
+	text-align:center;
+}
+.button{
+	border-style: solid;
+ 	border-color: #9900CC;
+	color: yellow;
+	background-color: #cc00ff;
+	padding: 14px 25px;
+	border-radius: 12px;
+	
+}
+.button2{
+	color:yellow;
+}

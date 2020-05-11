@@ -1,0 +1,26 @@
+.button{
+	border-style: solid;
+ 	border-color: green;
+	background-color: #f2ffe6;
+	color: black;
+	padding: 9px 16px;
+	border-radius: 12px;
+}
+.button2{
+	border-style: solid;
+ 	border-color: green;
+	color: black;
+	background-color: #f2ffe6;
+	padding: 9px 16px;
+	border-radius: 12px;
+}
+.title{
+	text-align: center;
+	color: green;
+	font-family:"Berlin Sans FB Demi";
+}
+.a{
+	color:green;
+
+}
+	

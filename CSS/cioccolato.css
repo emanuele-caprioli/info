@@ -1,0 +1,35 @@
+h1.titolo{
+	background-color: orange;
+}
+table{
+	border: 0;
+	text-align: center;
+	font-family: verdana;
+	width: 50%;
+	background-color: FFFF80;
+}
+td.prima{
+		background-color: orange;
+}
+td.elemento2{
+		font-size: 120%;
+}
+td.terza{
+		
+		background-color: FFC000;
+}
+h2.cognome{
+		text-align: right;
+}
+.button{
+	border-style: solid;
+ 	border-color: orange;
+	background-color:#ffe0cc;
+	padding: 14px 25px;
+	border-radius: 12px;
+}
+.a{
+	color:orange;
+}
+
+
